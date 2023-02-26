@@ -1,0 +1,140 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+}
+
+header{
+    position: relative;
+    background-color: black;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+nav{
+    width: 100%;
+    background-color: blue;
+    height: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding-inline: 6%;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    transition: 1.1s;
+    text-align: center;
+    margin: auto;
+}
+
+a:hover{
+    background-color: black;
+    transition: 1.1s;
+    text-align: center;
+}
+
+#asideum{
+    position: relative;
+    width: 20%;
+    float: left;
+    height: 65%;
+    background-color: rgb(179, 179, 179);
+}
+
+aside a{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    padding: 5%;
+    border-block: 1px solid grey ;
+    color: white;
+}
+
+section{
+    float: left;
+    background-color: wheat;
+    width: 60%;
+    height: 65%;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 22px;
+}
+
+#imagemtela{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;   
+}
+
+#imagemtela img{
+    width: 100%;
+}
+
+section p{
+    background-color: rgb(18, 236, 236);
+    width: 90%;
+    height: 18%;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.imagens img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagens{
+    position: relative;
+    background-color: transparent;
+    width: 26%;
+    height: 23%;
+    margin: auto;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+#asidedois{
+    float: left;
+    background-color: rgb(201, 37, 37);
+    width: 20%;
+    height: 65%;
+}
+
+#asidedois img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 2%;
+    font-size: 35px;
+    clear: left;
+}
